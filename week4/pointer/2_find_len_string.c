@@ -58,7 +58,7 @@ void test_strLength() {
     run_test_strLength("test_strLength_case1", str1, 5);
 
     char str2[] = "C programming";
-    run_test_strLength("test_strLength_case2", str2, 14);
+    run_test_strLength("test_strLength_case2", str2, 13);
 
     char str3[] = "a";
     run_test_strLength("test_strLength_single_char", str3, 1);
